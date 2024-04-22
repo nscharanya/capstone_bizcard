@@ -1,12 +1,12 @@
 import streamlit as st
 import easyocr   # Optical Character Recognition
-from PIL import Image # for working with images in Python
+from PIL import Image # for working with images in Python (Python imaging Library)
 import pandas as pd
 import numpy as np
-import re
-import io
+import re                # For regular expressions
+import io                # Input- output
 import psycopg2
-import os
+              
 
 def image_to_text_conversion(path):
   input_img = Image.open(path)
