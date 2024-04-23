@@ -10,7 +10,6 @@ This Streamlit app utilizes EasyOCR for Optical Character Recognition (OCR) to e
       6) re (regular expressions)
       7) io
       8) psycopg2 (PostgreSQL adapter)
-      9) os
       
 #### Step-by-Step Process to create the Project:
 
